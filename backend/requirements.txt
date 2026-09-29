@@ -105,3 +105,4 @@ websockets==16.1.1
 wrapt==2.4.1
 xxhash==4.0.1
 zstandard==0.25.0
+gunicorn
