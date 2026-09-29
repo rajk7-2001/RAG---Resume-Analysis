@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-4jo-q=m*^k-8@_lymlfz(yg-$t@tp!vbv38r3!9@kvc@osp@o*
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "rag-resume-analysis.onrender.com",
+    "*",
 ]
 
 
