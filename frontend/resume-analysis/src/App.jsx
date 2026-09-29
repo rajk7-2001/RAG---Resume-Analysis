@@ -30,7 +30,7 @@ function App() {
     setLoading(true);
 
     const result = await axios.post(
-    "http://localhost:8080/resume/details/",
+    "https://rag-resume-analysis.rajcloud.blitz.cloud/resume/details/",
     formdata
   );
     // console.log(result.data)
