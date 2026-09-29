@@ -73,7 +73,6 @@ rich==15.0.0
 safetensors==0.8.0
 scikit-learn==1.9.1
 scipy==1.18.1
-sentence-transformers==6.1.0
 setuptools==84.0.0
 shellingham==1.5.4
 smart_open==8.0.1
@@ -89,7 +88,6 @@ textsearch==0.0.24
 thinc==8.3.13
 threadpoolctl==3.7.0
 tokenizers==0.23.2
-torch==2.14.0
 tqdm==4.70.1
 transformers==5.17.0
 truststore==0.10.4
@@ -106,3 +104,4 @@ wrapt==2.4.1
 xxhash==4.0.1
 zstandard==0.25.0
 gunicorn
+google-genai
