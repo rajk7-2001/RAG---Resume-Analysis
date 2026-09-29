@@ -30,9 +30,9 @@ function App() {
     setLoading(true);
 
     const result = await axios.post(
-      "http://127.0.0.1:8000/resume/details/",
-      formdata
-    );
+    "http://localhost:8080/resume/details/",
+    formdata
+  );
     // console.log(result.data)
     console.log(result.data.Response)
     setResponse(result.data.Response)
