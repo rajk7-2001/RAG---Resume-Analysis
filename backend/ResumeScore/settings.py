@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-4jo-q=m*^k-8@_lymlfz(yg-$t@tp!vbv38r3!9@kvc@osp@o*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "rag-resume-analysis.onrender.com",
+]
 
 
 # Application definition
